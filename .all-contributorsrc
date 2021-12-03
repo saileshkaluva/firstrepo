@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "saileshkaluva",
+      "name": "Kaluva Sailesh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87260152?v=4",
+      "profile": "https://github.com/saileshkaluva",
+      "contributions": [
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "terrarepo",
+  "projectOwner": "saileshkaluva",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

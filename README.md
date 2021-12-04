@@ -211,7 +211,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/saileshkaluva"><img src="https://avatars.githubusercontent.com/u/87260152?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kaluva Sailesh</b></sub></a><br /><a href="https://github.com/saileshkaluva/terrarepo/pulls?q=is%3Apr+reviewed-by%3Asaileshkaluva" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/saileshkaluva"><img src="https://avatars.githubusercontent.com/u/87260152?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kaluva Sailesh</b></sub></a><br /><a href="https://github.com/saileshkaluva/terrarepo/pulls?q=is%3Apr+reviewed-by%3Asaileshkaluva" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/saileshkaluva/terrarepo/commits?author=saileshkaluva" title="Code">💻</a> <a href="#projectManagement-saileshkaluva" title="Project Management">📆</a></td>
   </tr>
 </table>
 

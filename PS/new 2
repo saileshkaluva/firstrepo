@@ -1,0 +1,9 @@
+$FA = '10.21.8.49'
+$T = Get-PfaApiToken -FlashArray $FA -Username pureuser -Password pureuser
+$S = Connect-PfaController -FlashArray $FA -API_Token $T.api_token
+$wwns = @('1122334455667788','2233445566778899')
+New-PfaHost -FlashArray $FA -Name QUICKSTART -WWNList $wwns -Session $S
+New-PfaHostGroup -FlashArray $FA -Name QUICK-HG -HostList QUICKSTART -Session $S
+ForEach($i in 1..10) { New-PfaVolume -FlashArray $FA -Name QUICKSTARTVOL$i -Size 1T -Session $S }
+ForEach($a in 1..5) { Connect-PfaHost -FlashArray $FA -Name QUICKSTART -Volume QUICKSTARTVOL$a -Session $S }
+ForEach($b in 6..10) { Connect-PfaHostGroup -FlashArray $FA -Name QUICK-HG -Volume QUICKSTARTVOL$b -Session $S }

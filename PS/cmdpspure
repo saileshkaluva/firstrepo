@@ -1,0 +1,33 @@
+Add-PfaHostWwns                   Cmdlet    PureStoragePowerShellSDK  Adds WWNs for the specified host.
+Remove-PfaHostWwns                Cmdlet    PureStoragePowerShellSDK  Removes WWNs for the specified host.
+Set-PfaHostWwns                   Cmdlet    PureStoragePowerShellSDK  Sets WWNs for the specified host.
+New-PfaHost                       Cmdlet    PureStoragePowerShellSDK  Creates a host with the specified name.
+New-PfaHostGroup                  Cmdlet    PureStoragePowerShellSDK  Creates a host group with the specified name.
+New-PfaHostGroupProtocolEndpoi... Cmdlet    PureStoragePowerShellSDK  (REST API 1.13+) Connects a protocol endpoint to the specified host group.
+New-PfaHostGroupVolumeConnection  Cmdlet    PureStoragePowerShellSDK  Connects a volume to all hosts in the specified host group.
+New-PfaHostProtocolEndpointVol... Cmdlet    PureStoragePowerShellSDK  (REST API 1.13+) Connects a protocol endpoint to the specified host.
+New-PfaHostVolumeConnection       Cmdlet    PureStoragePowerShellSDK  Connects a volume to the host.
+
+
+Add-PfaHostGroupsToProtectionG... Cmdlet    PureStoragePowerShellSDK  (REST API 1.2+) Adds a list of host groups to the existing list.
+Add-PfaHostIqns                   Cmdlet    PureStoragePowerShellSDK  Adds IQNs for the specified host.
+Add-PfaHostNqn                    Cmdlet    PureStoragePowerShellSDK  Add NQN's for the specified host.
+Add-PfaHosts                      Cmdlet    PureStoragePowerShellSDK  Adds host members of the specified host group.
+Add-PfaHostsToProtectionGroup     Cmdlet    PureStoragePowerShellSDK  (REST API 1.2+) Adds a list of hosts to the existing list.
+Add-PfaHostWwns                   Cmdlet    PureStoragePowerShellSDK  Adds WWNs for the specified host.
+
+
+New-PfaHostGroupVolumeConnection -Array $Array -VolumeName vol1 -HostGroupName hostGroup1
+New-PfaHostGroupVolumeConnection -Array $Array -VolumeName vol2 -LUN 25 -HostGroupName hostGroup2
+
+
+New-PfaHostVolumeConnection -Array $Array -VolumeName vol1 -HostName host1
+New-PfaHostVolumeConnection -Array $Array -VolumeName vol2 -HostName host2 -LUN 25
+
+
+New-PfaHostGroup -Array $Array -Name hostGroup1
+New-PfaHostGroup -Array $Array -Name hostGroup2 -Hosts host1,host2,host3
+New-PfaHost -Array $Array -Name host1
+New-PfaHost -Array $Array -Name host2 -WwnList 111112222233333,111112222233333
+Add-PfaHosts -Array $Array -Name hostGroup1 -HostsToAdd host1,host2
+Add-PfaHostWwns -Array $Array -Name host1 -AddWwnList 0123456789abcde1,01:23:45:67:89:ab:cd:e2

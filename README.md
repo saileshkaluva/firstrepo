@@ -2,7 +2,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# Terraform Provider for Azure (Resource Manager)
+# Terraform Provider for Azure (Resource Manager) 
 
 Version 2.x of the AzureRM Provider requires Terraform 0.12.x and later, but 1.0 is recommended.
 

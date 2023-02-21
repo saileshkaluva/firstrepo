@@ -11,9 +11,9 @@ hide:
 
 <h1 style=" text-align: center; box-sizing: border-box;">Contact Us</h3>
 <h4 style=" text-align: center; box-sizing: border-box;margin: 0rem;">
-  Supercharge your pipelines in Cloud9 to build faster & better</h4>
+  How can we help you?</h4>
 </br>
-<h2 style=" text-align: center; box-sizing: border-box;">3 Steps to CI/CD as a service</h2>
+<h2 style=" text-align: center; box-sizing: border-box;">Are you Struck and need assestence to Cloud 9 Products ?</h2>
 
 <div class="row" style="box-sizing: border-box;">
   <div class="column" style="box-sizing: border-box; float: left; width: 33.33%; padding: 10px; height: 250px;">

@@ -20,7 +20,7 @@ To get help and support related to Cloud 9 Products (Muziris, Eco System Builder
 
 For Posts raised during business hours one can except to get a response almost instently and for any Azure Cloud Infrastructure Issues support is avilable 24/7 
 
-![Support Model](/img/Support.png)
+![Support Model](./img/Support.png)
 
 ## Contact Info
 
